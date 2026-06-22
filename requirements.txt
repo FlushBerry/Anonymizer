@@ -1,0 +1,5 @@
+# Dépendances Python — installer via : pip install -r requirements.txt
+# (ou plus simplement : ./install.sh, qui gère aussi tesseract/xclip)
+customtkinter>=5.2      # interface graphique moderne (Tk)
+Pillow>=10.0            # traitement d'images (OCR, presse-papiers)
+pytesseract>=0.3.10     # binding Python pour Tesseract OCR
