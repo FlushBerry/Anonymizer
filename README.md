@@ -1,5 +1,6 @@
 # AnonymizerGPT — Pentest AI Anonymizer
 
+
 Anonymise les données sensibles (IPs, identifiants, mots de passe, tokens, clés API/IA, domaines, PII…) **avant** de les envoyer à une IA, puis **dé-anonymise** la réponse grâce à une table de concordance propre à chaque projet.
 
 ![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)
@@ -31,6 +32,8 @@ source .venv/bin/activate
 ```bash
 python3 proxy_gui.py
 ```
+
+![](ksnip_20260622-230329.png)
 
 - **Bandeau** : projet courant, « Lancer la démo », « Paramètres » (thèmes, taille de police, disposition haut-bas / gauche-droite, dossier projets).
 - **Sidebar** : gestion de projet (créer / charger / changer de dossier) et listes **Blacklist** (toujours anonymiser) / **Whitelist** (jamais anonymiser) — ajout manuel, par fichier, ou suppression par croix rouge.
